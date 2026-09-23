@@ -1,0 +1,39 @@
+{
+  "ready": false,
+  "accepted_rows": [
+    {
+      "order_id": "DEMO-01",
+      "sku": "0007",
+      "quantity": 3,
+      "unit_price": "0.10",
+      "currency": "CAD"
+    },
+    {
+      "order_id": "DEMO-02",
+      "sku": "ABC",
+      "quantity": 2,
+      "unit_price": "2.50",
+      "currency": "USD"
+    }
+  ],
+  "duplicate_rows_skipped": [
+    3
+  ],
+  "held_keys": [
+    [
+      "DEMO-03",
+      "XYZ"
+    ]
+  ],
+  "errors": [
+    {
+      "row": 6,
+      "reason": "Conflicting order/SKU; all versions are held"
+    }
+  ],
+  "totals_by_currency": {
+    "CAD": "0.30",
+    "USD": "5.00"
+  },
+  "scope": "Line totals only; tax, discounts, freight and live writes are excluded."
+}

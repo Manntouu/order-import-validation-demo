@@ -1,0 +1,6 @@
+order_id,sku,quantity,unit_price,currency
+DEMO-01,0007,3,0.10,CAD
+DEMO-01,0007,3,0.1,CAD
+DEMO-02,ABC,2,2.50,USD
+DEMO-03,XYZ,1,9.99,CAD
+DEMO-03,XYZ,2,9.99,CAD
